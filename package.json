@@ -1,0 +1,27 @@
+{
+  "name": "nut-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config build/webpack.config.js",
+    "build": "webpack --config build/webpack.prod.config.js",
+    "build:comp": "webpack --config build/wepback.prod.comp.config.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "CarltonJin <969728883@qq.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/enzyme": "^3.10.8",
+    "@types/jest": "^26.0.20",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "enzyme": "^3.11.0",
+    "file-save": "^0.2.0",
+    "jest": "^26.6.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "uppercamelcase": "^3.0.0"
+  }
+}
