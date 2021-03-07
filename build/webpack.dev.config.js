@@ -1,4 +1,4 @@
-const {merge} = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const common = require('./webpack.base.config');
 const path = require('path');
 
@@ -38,5 +38,10 @@ module.exports = merge(common, {
         //         ws: true,
         //     },
         // },
+    },
+    resolve: {
+        alias: {
+            '@nut': path.resolve(__dirname, '../src/components'),
+        },
     },
 });

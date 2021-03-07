@@ -7,7 +7,8 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.dev.config.js",
     "build": "webpack --config build/webpack.prod.config.js",
     "build:comp": "webpack --config build/wepback.prod.comp.config.js",
-    "test": "jest"
+    "test": "jest",
+    "create:component": "node scripts/new_component.js"
   },
   "keywords": [],
   "author": "CarltonJin <969728883@qq.com>",

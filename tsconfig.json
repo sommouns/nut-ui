@@ -2,7 +2,7 @@
     "compilerOptions": {
         "baseUrl": "./",
         "paths": {
-            "nut": ["components/index.tsx"]
+            "@nut": ["src/components/index.ts"]
         },
         "strictNullChecks": true,
         "moduleResolution": "node",
